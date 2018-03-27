@@ -1,0 +1,15 @@
+//Load any mixins
+@import "mixins";
+
+//Set up any global variables
+@import "variables";
+
+//Set any app level css
+@import "app";
+
+//external libraries
+@import "imports";
+
+//Page level components
+@import 'partials/base/page-template';
+@import 'partials/components/minibio'

@@ -1,0 +1,22 @@
+.minibio {
+
+    &__title {
+       font-weight:bold;
+       font-style:italic;
+    }
+  
+    &__image {
+       /* styles */
+    }
+  
+    &__content {
+       /* styles */
+    }
+    
+    &__button {
+        @include button-variant($primary, white);
+      
+    }
+  
+  
+  }
