@@ -12,6 +12,8 @@ The JS entry point is ./src/js/app.js it is transpiled from ES6 to JS that can r
     - reference any application level JS
     - include any JS modules using ES6 import statements
 
+*Feel free to use any JS modules, just make use an npm package if available and import them properly*
+
 The SCSS entry point is in ./src/scss/main/scss and has the following files:
 - `_app.scss` - add any app level styles here
 - `_variables.scss` - add any app level variables here
